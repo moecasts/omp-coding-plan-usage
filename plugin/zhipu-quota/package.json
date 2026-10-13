@@ -1,0 +1,35 @@
+{
+  "name": "zhipu-quota",
+  "version": "1.0.0",
+  "description": "Zhipu GLM Coding Plan (open.bigmodel.cn) quota for omp usage, /usage, and the status line",
+  "license": "MIT",
+  "author": "moecasts <moecasts.caster@gmail.com>",
+  "type": "module",
+  "packageManager": "bun@1.4.3",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moecasts/omp-coding-plan-usage"
+  },
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "zhipu",
+    "glm",
+    "bigmodel",
+    "quota",
+    "coding-plan"
+  ],
+  "omp": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "devDependencies": {
+    "@oh-my-pi/pi-ai": "^18.10.3",
+    "@oh-my-pi/pi-coding-agent": "^18.10.3",
+    "typescript": "^7.0.2"
+  }
+}

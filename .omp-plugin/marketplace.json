@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "coding-plan-usage",
+  "owner": {
+    "name": "moecasts",
+    "email": "moecasts.caster@gmail.com"
+  },
+  "metadata": {
+    "description": "Usage/quota providers for coding-plan subscriptions that omp does not cover natively",
+    "version": "1.0.0",
+    "pluginRoot": "plugin"
+  },
+  "plugins": [
+    {
+      "name": "zhipu-quota",
+      "description": "Zhipu GLM Coding Plan (open.bigmodel.cn) quota for `omp usage`, /usage, and the status line",
+      "version": "1.0.0",
+      "author": {
+        "name": "moecasts",
+        "email": "moecasts.caster@gmail.com"
+      },
+      "category": "productivity",
+      "keywords": ["zhipu", "glm", "bigmodel", "quota", "usage", "coding-plan"],
+      "homepage": "https://github.com/moecasts/omp-coding-plan-usage",
+      "repository": "https://github.com/moecasts/omp-coding-plan-usage",
+      "license": "MIT",
+      "source": "./zhipu-quota"
+    }
+  ]
+}
